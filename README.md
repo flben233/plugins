@@ -1,11 +1,15 @@
-# Matsuri Plugins
+# 自用Matsuri Xray插件
 
-## To find plugin download
+## 描述
+
+本仓库仅仅更新了Xray插件，自用为主
+
+## 官方仓库
 
 https://matsuridayo.github.io/m-plugin/
 
 https://github.com/MatsuriDayo/plugins/releases
 
-## To build a plugin
+## 如何构建
 
-TODO
+运行`requirement.sh`补全依赖，然后运行`make.sh`
