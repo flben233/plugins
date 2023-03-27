@@ -164,13 +164,13 @@ class vlessClass {
                         builder.searchParams.set("flow", this.sharedStorage.serverFlowVision)
                     }
                     if (this.sharedStorage.publicKey.isNotBlank()) {
-                        builder.searchParams.set("pbk", this.sharedStorage.publicKey)
+                        builder.searchParams.set("publicKey", this.sharedStorage.publicKey)
                     }
                     if (this.sharedStorage.shortId.isNotBlank()) {
-                        builder.searchParams.set("sid", this.sharedStorage.shortId)
+                        builder.searchParams.set("shortId", this.sharedStorage.shortId)
                     }
                     if (this.sharedStorage.spiderX.isNotBlank()) {
-                        builder.searchParams.set("spx", this.sharedStorage.spiderX)
+                        builder.searchParams.set("spiderX", this.sharedStorage.spiderX)
                     }
                     break
                 }
@@ -451,7 +451,6 @@ class vlessClass {
                 neko.setPreferenceVisibility("serverSecurityCategory", false)
             } else {
                 neko.setPreferenceVisibility("serverSecurityCategory", true)
-                neko.setPreferenceVisibility("serverFlow", false)
                 if (newValue == "xtls") {
                     neko.setPreferenceVisibility("serverFlow", true)
                     neko.setPreferenceVisibility("serverFlowVision", false)
