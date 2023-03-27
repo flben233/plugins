@@ -164,13 +164,13 @@ class vlessClass {
                         builder.searchParams.set("flow", this.sharedStorage.serverFlowVision)
                     }
                     if (this.sharedStorage.publicKey.isNotBlank()) {
-                        builder.searchParams.set("publicKey", this.sharedStorage.publicKey)
+                        builder.searchParams.set("pbk", this.sharedStorage.publicKey)
                     }
                     if (this.sharedStorage.shortId.isNotBlank()) {
-                        builder.searchParams.set("shortId", this.sharedStorage.shortId)
+                        builder.searchParams.set("sid", this.sharedStorage.shortId)
                     }
                     if (this.sharedStorage.spiderX.isNotBlank()) {
-                        builder.searchParams.set("spiderX", this.sharedStorage.spiderX)
+                        builder.searchParams.set("spx", this.sharedStorage.spiderX)
                     }
                     break
                 }
